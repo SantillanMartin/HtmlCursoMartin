@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Table Tutorial</title>
+		<meta charset="utf-8">
+	</head>
+
+
+<body>
+
+<form name="empleo" action="send.php" method="POST">
+ <table background="https://img.freepik.com/vector-gratis/fondo-azul-galaxia_125540-99.jpg?size=626&ext=jpg" width="600" border="1" cellspacing="2" cellpadding="2">
+    <tr>
+      <td colspan="2"><h3><strong><u>Aplicacion de Empleo</u></strong></h3></td>
+      
+    </tr>
+    
+    <tr>
+      <td> Nombre </td>
+      <td><input  type="text" name="fname" maxlength="15"/></td>
+    </tr>
+    
+    <tr>
+      <td>Apellido</td>
+      <td><input type="text" name="lname" maxlength="15"/></td>
+    </tr>
+    
+    <tr>
+      <td>Puesto</td>
+        <td>
+          <select name="puesto">
+
+            <option value="AD">Administrativo</option>
+            <option value="AB">Abogado</option>
+            <option value="SE">Secretario</option>
+            <option value="SR">Senior</option>
+        
+          </select>
+        </td>
+    </tr>
+    
+    <tr>
+      <td>Experiencia</td>
+      <td>
+        <select name="experiencia">
+                    
+          <option value="SE">Sin Experiencia</option>
+          <option value="AE">Alguna Experiencia</option>
+          <option value="ME">Mucha Experiencia</option>
+          
+        </select>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>Tipo de Contrato</td>
+      <td>
+        
+        <input type="checkbox" name="FT"/>Full-Time
+        <input type="checkbox" name="PT"/>Part-Time
+        <input type="checkbox" name="CT"/>Contratado
+      
+      </td>
+    </tr>
+    
+    <tr>
+      <td>Status del Empleado</td>
+      <td>
+        
+        <input type="radio" name="status" value="desempleado"/>Desempleado
+        <input type="radio" name="status" value="empleado"/>Empleado
+        <input type="radio" name="status" value="estudiante"/>Estudiante
+      
+      </td>
+    </tr>
+    <tr>
+      <td>Comentarios Adicionales</td>
+      <td>
+        <textarea name="comentarios" cols="50" rows="5"></textarea>
+      </td>
+    </tr>
+    
+    <tr>
+      
+      <td></td>
+      <td>
+        <input type="submit" name="submit" value="submit"/>
+        <input type="reset"  name="reset"  value="reset"/>
+      </td>
+    
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>

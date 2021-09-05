@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My First Web Page </title>
+        <meta name="description" content="Page Description Here"/>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=5"/>
+
+        <style type="text/css">
+            Body {
+                color: rgb(42, 25, 190);
+            }
+
+        </style>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </head>
+
+    <body>
+        This is a Sample HTML Document.
+        This Javascript function will capitalize my name:
+        Enter your name: <input type="text" id="fname" onchange="myFunction()">
+
+
+        <p>This is line one. <br>This is line 2. &nbsp;&nbsp;&nbsp;&nbsp;This is line 3</p>
+
+        <h1>header1</h1>
+        <h2>cabezal2</h2>
+        <h3>cabezal3</h3>
+        <h4><font face="arial" size="22" color="green"> cabezal4</font></h4>
+
+        <h3><u>Mis  deportes favoritos</u></h3>
+        <ul>
+            <li><font color="black" >Futbol</font></li>
+            <li>Basquet</li>
+
+        </ul>
+
+        <h3>Mis lugares vacacionales favoritos</h3>
+
+        <ol>
+            <a href="https://es.wikipedia.org/wiki/Orlando_(Florida)" target="_blank"><li>Orlando</li></a>
+            <li>Cordoba</li>
+            <li>Jamaica</li>
+            <a href="#houston"><li>Houston</li></a>
+            <li>Este es el numero seis</li>
+        </ol>
+
+        <h3>Imagenes vacacionales</h3>
+        <p>
+            <a href="miami.com"><img src="FL.jpg" width="333" height="250"></a>
+            <img src="LV.jpg" width="375" height="250">
+            <img src="NY.jpg" width="374" height="250"><br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Houston_night.jpg" width="333" height="250">
+
+
+
+        </p>
+
+            <p>
+                <a href="http://www.almundo.com.ar"target="_blank"><h1><font face="arial" color="red"> Almundo Argentina</font></h1></a>
+
+            </p>
+            <p>
+
+            </p>
+
+            <p>
+               <a id="houston"><h1>Articulo: </h1></a>
+            </p>
+
+    </body>
+
+</html>
